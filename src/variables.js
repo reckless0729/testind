@@ -33,7 +33,8 @@ import {
     updateUltimateCopperCable,
     updateUltimateDiamondCable,
     updateUltimateGoldCable,
-    updateUltimateTinCable
+    updateUltimateTinCable,
+    updateminemachine
 } from "./elements/modules";
 
 // MOD variables
