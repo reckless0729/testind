@@ -181,9 +181,9 @@ export function updateUltimateDiamondCable() {
 }
 export function updateminemachine() {
     if (MOD.mine%2 === 0) {
-        buttonUltimateDiamondCable.innerHTML = '<img src ="../mods/local/industrialCookies/image/actminemachine.png" width ="35px" height ="40px">';
+        buttonminemachine.innerHTML = '<img src ="../mods/local/industrialCookies/image/actminemachine.png" width ="35px" height ="40px">';
     } else {
-        buttonUltimateDiamondCable.innerHTML = '<img src ="../mods/local/industrialCookies/image/minemachine.png" width ="35px" height ="40px">';
+        buttonminemachine.innerHTML = '<img src ="../mods/local/industrialCookies/image/minemachine.png" width ="35px" height ="40px">';
     }
 }
 
