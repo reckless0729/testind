@@ -23,6 +23,7 @@ export let buttonAdvancedDiamondCable;
 export let buttonHybridDiamondCable;
 export let buttonUltimateDiamondCable;
 
+export let buttonminemachine;
 //hovers
 export let hoverTinCable;
 export let hoverAdvancedTinCable;
@@ -43,6 +44,8 @@ export let hoverDiamondCable;
 export let hoverAdvancedDiamondCable;
 export let hoverHybridDiamondCable;
 export let hoverUltimateDiamondCable;
+
+export let hoverminemachine;
 
 export function initModuleElements() {
     addModuleButtons();
@@ -234,7 +237,7 @@ function addModuleButtons() {
     buttonUltimateDiamondCable = l('ultdiamondca');
     updateUltimateDiamondCable();
     CENTER_AREA.insertAdjacentHTML('beforeend', '<a style="font-size:24px;position:absolute;top:380px;left:0px;display:none;" class="smallFancyButton" id="minema"></a>');
-    buttonminemachine = l('ultdiamondca');
+    buttonminemachine = l('minema');
     updateminemachine();
 }
 
