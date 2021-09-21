@@ -117,7 +117,8 @@ import {
     updateUltimateCopperCable,
     updateUltimateDiamondCable,
     updateUltimateGoldCable,
-    updateUltimateTinCable
+    updateUltimateTinCable,
+    updateminemachine
 } from "./elements/modules";
 import {
     startTimer,
